@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <EditText
+       android:id="@+id/email"
+       android:hint="Email"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginRight="16dp"
+       android:layout_marginLeft="16dp">
+
+   </EditText>
+    <EditText
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/email"
+        android:id="@+id/password"
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+    </EditText>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <Button
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/sigin_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In">
+
+    </Button>
+
+    <Button
+        android:layout_toRightOf="@id/sigin_in"
+        android:layout_marginTop="16dp"
+        android:id="@+id/sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up">
+
+    </Button>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

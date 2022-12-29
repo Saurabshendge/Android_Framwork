@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DemoApp</string>
+    <string name="hydrabad">Hydrabad</string>
+    <string name="banglore">Banglore</string>
+    <string name="mango">Mango</string>
+    <string name="banana">Apple</string>
+    <string name="cherry">Cherry</string>
+</resources>
