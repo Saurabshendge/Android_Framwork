@@ -1,0 +1,99 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mybroadcastreciverapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/thundersoft/AndroidStudioProjects/MyBroadCastReciverApp/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/home/thundersoft/AndroidStudioProjects/MyBroadCastReciverApp/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/home/thundersoft/AndroidStudioProjects/MyBroadCastReciverApp/app/src/main/AndroidManifest.xml:5:5-35:19
+12        android:allowBackup="true"
+12-->/home/thundersoft/AndroidStudioProjects/MyBroadCastReciverApp/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.8.0] /home/thundersoft/.gradle/caches/transforms-3/87a796fe63836d99a2198ac6a6284cb3/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->/home/thundersoft/AndroidStudioProjects/MyBroadCastReciverApp/app/src/main/AndroidManifest.xml:7:9-65
+15        android:debuggable="true"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->/home/thundersoft/AndroidStudioProjects/MyBroadCastReciverApp/app/src/main/AndroidManifest.xml:8:9-54
+17        android:icon="@mipmap/ic_launcher"
+17-->/home/thundersoft/AndroidStudioProjects/MyBroadCastReciverApp/app/src/main/AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->/home/thundersoft/AndroidStudioProjects/MyBroadCastReciverApp/app/src/main/AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/home/thundersoft/AndroidStudioProjects/MyBroadCastReciverApp/app/src/main/AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->/home/thundersoft/AndroidStudioProjects/MyBroadCastReciverApp/app/src/main/AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.MyBroadCastReciverApp" >
+22-->/home/thundersoft/AndroidStudioProjects/MyBroadCastReciverApp/app/src/main/AndroidManifest.xml:13:9-59
+23        <receiver
+23-->/home/thundersoft/AndroidStudioProjects/MyBroadCastReciverApp/app/src/main/AndroidManifest.xml:15:9-18:48
+24            android:name="com.example.mybroadcastreciverapp.MyBroadCastReceiver"
+24-->/home/thundersoft/AndroidStudioProjects/MyBroadCastReciverApp/app/src/main/AndroidManifest.xml:16:13-48
+25            android:enabled="true"
+25-->/home/thundersoft/AndroidStudioProjects/MyBroadCastReciverApp/app/src/main/AndroidManifest.xml:17:13-35
+26            android:exported="true" />
+26-->/home/thundersoft/AndroidStudioProjects/MyBroadCastReciverApp/app/src/main/AndroidManifest.xml:18:13-36
+27
+28        <intent-filter>
+28-->/home/thundersoft/AndroidStudioProjects/MyBroadCastReciverApp/app/src/main/AndroidManifest.xml:19:9-21:25
+29            <action android:name="com.saurabh.mybroadcastmssage" />
+29-->/home/thundersoft/AndroidStudioProjects/MyBroadCastReciverApp/app/src/main/AndroidManifest.xml:20:13-75
+29-->/home/thundersoft/AndroidStudioProjects/MyBroadCastReciverApp/app/src/main/AndroidManifest.xml:20:21-65
+30        </intent-filter>
+31
+32        <activity
+32-->/home/thundersoft/AndroidStudioProjects/MyBroadCastReciverApp/app/src/main/AndroidManifest.xml:23:9-34:20
+33            android:name="com.example.mybroadcastreciverapp.MainActivity"
+33-->/home/thundersoft/AndroidStudioProjects/MyBroadCastReciverApp/app/src/main/AndroidManifest.xml:24:13-41
+34            android:exported="true" >
+34-->/home/thundersoft/AndroidStudioProjects/MyBroadCastReciverApp/app/src/main/AndroidManifest.xml:25:13-36
+35            <intent-filter>
+35-->/home/thundersoft/AndroidStudioProjects/MyBroadCastReciverApp/app/src/main/AndroidManifest.xml:26:13-29:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->/home/thundersoft/AndroidStudioProjects/MyBroadCastReciverApp/app/src/main/AndroidManifest.xml:27:17-69
+36-->/home/thundersoft/AndroidStudioProjects/MyBroadCastReciverApp/app/src/main/AndroidManifest.xml:27:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->/home/thundersoft/AndroidStudioProjects/MyBroadCastReciverApp/app/src/main/AndroidManifest.xml:28:17-77
+38-->/home/thundersoft/AndroidStudioProjects/MyBroadCastReciverApp/app/src/main/AndroidManifest.xml:28:27-74
+39            </intent-filter>
+40
+41            <meta-data
+41-->/home/thundersoft/AndroidStudioProjects/MyBroadCastReciverApp/app/src/main/AndroidManifest.xml:31:13-33:36
+42                android:name="android.app.lib_name"
+42-->/home/thundersoft/AndroidStudioProjects/MyBroadCastReciverApp/app/src/main/AndroidManifest.xml:32:17-52
+43                android:value="" />
+43-->/home/thundersoft/AndroidStudioProjects/MyBroadCastReciverApp/app/src/main/AndroidManifest.xml:33:17-33
+44        </activity>
+45
+46        <provider
+46-->[androidx.emoji2:emoji2:1.2.0] /home/thundersoft/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+47            android:name="androidx.startup.InitializationProvider"
+47-->[androidx.emoji2:emoji2:1.2.0] /home/thundersoft/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+48            android:authorities="com.example.mybroadcastreciverapp.androidx-startup"
+48-->[androidx.emoji2:emoji2:1.2.0] /home/thundersoft/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+49            android:exported="false" >
+49-->[androidx.emoji2:emoji2:1.2.0] /home/thundersoft/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+50            <meta-data
+50-->[androidx.emoji2:emoji2:1.2.0] /home/thundersoft/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+51                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+51-->[androidx.emoji2:emoji2:1.2.0] /home/thundersoft/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+52                android:value="androidx.startup" />
+52-->[androidx.emoji2:emoji2:1.2.0] /home/thundersoft/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+53            <meta-data
+53-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/thundersoft/.gradle/caches/transforms-3/0ce9e5f033589fdf0ab757f82f7808ec/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+54                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+54-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/thundersoft/.gradle/caches/transforms-3/0ce9e5f033589fdf0ab757f82f7808ec/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+55                android:value="androidx.startup" />
+55-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/thundersoft/.gradle/caches/transforms-3/0ce9e5f033589fdf0ab757f82f7808ec/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+56        </provider>
+57    </application>
+58
+59</manifest>
